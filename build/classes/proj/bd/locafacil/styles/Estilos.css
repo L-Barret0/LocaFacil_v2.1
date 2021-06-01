@@ -1,0 +1,12 @@
+.transparent{
+    -fx-background-color: rgba(0,0,0,0);
+}
+
+.fruit-item{
+    -fx-background-color: #FFFFFF;
+        -fx-background-radius: 5;
+}
+
+.shadow{
+    -fx-effect: dropShadow(three-pass-box,rgba(0,0,0,0.1), 2.0 , 0.0 , 0.0 ,2.0);
+}

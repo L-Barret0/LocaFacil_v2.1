@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.String?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" onMousePressed="#click" prefHeight="85.0" prefWidth="908.0" stylesheets="@../styles/Estilos.css" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="proj.bd.locafacil.controllers.cards.CardClientesController">
+    <styleClass>
+      <String fx:value="shadow" />
+      <String fx:value="fruit-item" />
+   </styleClass>
+   <children>
+      <Label fx:id="idCliente" layoutX="42.0" layoutY="33.0" text="#001" AnchorPane.bottomAnchor="30.0" AnchorPane.leftAnchor="42.0" AnchorPane.topAnchor="30.0">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="nomeCliente" layoutX="100.0" layoutY="33.0" text="Aluguel do carro tal " AnchorPane.bottomAnchor="30.0" AnchorPane.leftAnchor="100.0" AnchorPane.topAnchor="30.0">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="dataNascimentoCliente" layoutX="333.0" layoutY="33.0" text="Dia 00/000/0000" AnchorPane.bottomAnchor="30.0" AnchorPane.leftAnchor="339.0" AnchorPane.topAnchor="30.0">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="cpfCliente" layoutX="662.0" layoutY="33.0" text="Na hra 03:30" AnchorPane.bottomAnchor="30.0" AnchorPane.leftAnchor="546.0" AnchorPane.topAnchor="30.0">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Line endX="55.0" endY="44.0" layoutX="550.0" layoutY="15.0" startX="55.0" stroke="#a4adaf" AnchorPane.bottomAnchor="20.0" AnchorPane.leftAnchor="299.0" AnchorPane.topAnchor="20.0" />
+      <Line endX="55.0" endY="44.0" layoutX="454.0" layoutY="23.0" startX="55.0" stroke="#a4adaf" AnchorPane.bottomAnchor="20.0" AnchorPane.leftAnchor="506.0" AnchorPane.topAnchor="20.0" />
+   </children>
+</AnchorPane>

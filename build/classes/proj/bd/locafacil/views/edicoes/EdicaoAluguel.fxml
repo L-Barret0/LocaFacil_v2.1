@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="699.0" prefWidth="1366.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="proj.bd.locafacil.controllers.edicoes.EdicaoAluguelController">
+   <children>
+      <Button fx:id="botCancelarEdicaoAluguel" layoutX="274.0" layoutY="545.0" mnemonicParsing="false" text="Cancelar" />
+      <Button fx:id="botSalvarEdicaoAluguel" layoutX="397.0" layoutY="545.0" mnemonicParsing="false" text="Salvar alteração" />
+   </children>
+</AnchorPane>
